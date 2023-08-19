@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&family=Mada&family=Rubik&display=swap');
+
+body {
+
+    background-color: black;
+    color: white;
+    padding-inline: 20px;
+    margin-inline: 30px;
+    font-family: inter;
+    font-size: 20px;
+}
+
+body h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    width: 85vw;
+}
+
+input {
+    width: 25vw;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+#add-student {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 35vw;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#search-input {
+    width: 84vw;
+    padding: 10px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+}
+
+
+.table {
+    margin-top: 30px;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.custom-heigth {
+    height: 200px;
+}
